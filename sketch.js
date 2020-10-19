@@ -51,8 +51,8 @@ function draw() {
     walls.push(new Boundary(0,sceneH, sceneW, sceneH, false));
     walls.push(new Boundary(sceneW,0, sceneW, sceneH, false));
 
-    let old = createVector(sceneW/2, 4*sceneH/5);
-    let step = createVector(0, 3);
+    let old = createVector(sceneW/2, sceneH/2);
+    let step = createVector(0, 2);
 
     for(n=0; n<WALK_NUM; n++)
     {
